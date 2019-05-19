@@ -1,0 +1,57 @@
+body,td,th {
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #9b0000;
+
+}
+
+
+
+body {
+	background-color: #eeb4c4;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url();
+	background-repeat: no-repeat;
+	line-height:25px;
+	color: #FC0;
+}
+.fbox { position:fixed; bottom:0px; left:0; width:100%; height:40px; opacity:0.9; filter:alpha(opacity=90); z-index:20; _position:absolute; _top:expression(offsetParent.scrollTop + document.documentElement.clientHeight - this.offsetHeight); background-color:#129bf2;}
+.fbox .bbox { margin:0 auto; _margin:0 auto; width:1003px; height:40px; font-size:24px; color:#FFF; font-weight:bold; text-align:center; background:url(static/images/cat.jpg) no-repeat; padding-top:7px;}
+.fbox .bbox .b1{ width:160px; height:30px; float:left;}
+.fbox .bbox .b2{ width:80px; height:30px;  float:left; margin-left:5px; font-size:16px; line-height:30px;}
+.fbox .bbox .b3{ width:130px; height:30px; float:left; margin-left:10px;}
+.fbox .bbox .b4{ width:125px; height:30px; float:left; text-align:left;}
+.fbox .bbox .b5{ width:50px; height:30px;  float:left; margin-left:5px;}
+.fbox .bbox .b6{ width:215px; height:30px; float:left; text-align:left; overflow:hidden;}
+.fbox .bbox input{ width:115px; height:16px; margin-top:3px;}
+.fbox .bbox .sub{ width:50px; height:23px; font-size:14px;}
+.b3 {
+	font-size:14px;
+	color: #000;
+	line-height:24px;
+	padding:0px 8px;
+	TEXT-DECORATION: none;
+	FONT-FAMILY: "微软雅黑";
+}
+.b3 a{ FONT-SIZE:15px; COLOR: #000; LINE-HEIGHT:24px; padding:0px 8px; FONT-FAMILY: "微软雅黑"; TEXT-DECORATION: none; }
+.b3 a:hover{FONT-SIZE: 14px; COLOR: #000; LINE-HEIGHT:24x; padding:0px 8px; FONT-FAMILY: "微软雅黑"; TEXT-DECORATION: underline; }
+ 
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	color: #03F;
+}
+
